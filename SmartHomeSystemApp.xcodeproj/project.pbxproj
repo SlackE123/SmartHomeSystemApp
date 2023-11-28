@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED431ACA2B15F24400FD8D5A /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED431AC92B15F24400FD8D5A /* Devices.swift */; };
+		ED431ACC2B15F42500FD8D5A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED431ACB2B15F42500FD8D5A /* Home.swift */; };
 		ED6362AA2B110DDA00EC93F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6362A92B110DDA00EC93F3 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED431AC92B15F24400FD8D5A /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		ED431ACB2B15F42500FD8D5A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		ED6362A62B110DDA00EC93F3 /* SmartHomeSystemApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHomeSystemApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6362A92B110DDA00EC93F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				ED6362A92B110DDA00EC93F3 /* main.swift */,
+				ED431AC92B15F24400FD8D5A /* Devices.swift */,
+				ED431ACB2B15F42500FD8D5A /* Home.swift */,
 			);
 			path = SmartHomeSystemApp;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6362AA2B110DDA00EC93F3 /* main.swift in Sources */,
+				ED431ACC2B15F42500FD8D5A /* Home.swift in Sources */,
+				ED431ACA2B15F24400FD8D5A /* Devices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
